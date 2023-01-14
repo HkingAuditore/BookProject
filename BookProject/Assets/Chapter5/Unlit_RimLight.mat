@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_RimLight
+  m_Shader: {fileID: 4800000, guid: 9783493f61d35de44a847cb364121e7c, type: 3}
+  m_ShaderKeywords: _ENABLE_FLASH _ENABLE_MASK _ENABLE_RIM
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 285aec18e3d36ba4c8720c7b8914f48d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimTex:
+        m_Texture: {fileID: 2800000, guid: 4673c1b356fa1a14c9c7021098d826a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EdgeMaskPower: 0.493
+    - _EdgePower: 3.2
+    - _EdgeSoft: 0.33
+    - _EnableFlash: 1
+    - _EnableMask: 1
+    - _EnableRim: 1
+    - _RimFlashRange: 1
+    - _RimIntensity: 1.71
+    - _RimMaskIntensity: 1
+    - _RimSpeed: 10.79
+    m_Colors:
+    - _RimColor: {r: 2, g: 1.1739196, b: 0, a: 1}
+  m_BuildTextureStacks: []
