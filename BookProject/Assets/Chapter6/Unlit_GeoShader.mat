@@ -19,10 +19,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _GrassTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors: []
+    m_Floats:
+    - _GrassCount: 0
+    - _GrassCutoff: 0.981
+    - _GrassTall: 0.1
+    - _GrassWidth: 0.1
+    - _SpikeLength: 0.151
+    m_Colors:
+    - _GroundColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

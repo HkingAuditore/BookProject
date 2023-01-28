@@ -90,7 +90,7 @@ Shader "Unlit/Wave"
             half _Shininess;
             half _Metallic;
 
-            float3 SampleWave(float3 p, half2 waveDir, half wavelength, half steepness)
+            float3 SampleTrace(float3 p, half2 waveDir, half wavelength, half steepness)
             {
                 float lambda =2*UNITY_PI/wavelength;
                 float a = wavelength/(2*UNITY_PI)*steepness;
@@ -103,8 +103,8 @@ Shader "Unlit/Wave"
             }
             float3 MakeWave(float3 p)
             {
-                p = SampleWave(p,_WaveDir0,_Wavelength0,_Steepness0);
-                p = SampleWave(p,_WaveDir1,_Wavelength1,_Steepness1);
+                p = SampleTrace(p,_WaveDir0,_Wavelength0,_Steepness0);
+                p = SampleTrace(p,_WaveDir1,_Wavelength1,_Steepness1);
                 return p;
             }
 
@@ -253,7 +253,7 @@ Shader "Unlit/Wave"
             #pragma domain doma
 			
 			#include "UnityCG.cginc"
-			            struct pdata
+			struct pdata
             {
                 float4 pos : POSITION;
                 float2 uv : TEXCOORD0;
@@ -296,7 +296,7 @@ Shader "Unlit/Wave"
             half _Shininess;
             half _Metallic;
 
-            float3 SampleWave(float3 p, half2 waveDir, half wavelength, half steepness)
+            float3 SampleTrace(float3 p, half2 waveDir, half wavelength, half steepness)
             {
                 float lambda =2*UNITY_PI/wavelength;
                 float a = wavelength/(2*UNITY_PI)*steepness;
@@ -309,8 +309,8 @@ Shader "Unlit/Wave"
             }
             float3 MakeWave(float3 p)
             {
-                p = SampleWave(p,_WaveDir0,_Wavelength0,_Steepness0);
-                p = SampleWave(p,_WaveDir1,_Wavelength1,_Steepness1);
+                p = SampleTrace(p,_WaveDir0,_Wavelength0,_Steepness0);
+                p = SampleTrace(p,_WaveDir1,_Wavelength1,_Steepness1);
                 return p;
             }
 

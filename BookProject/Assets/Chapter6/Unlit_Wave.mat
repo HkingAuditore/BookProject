@@ -44,8 +44,8 @@ Material:
     - _Steepness1: 0.169
     - _SubdivisionAmount: 5
     - _TessellationEdge: 12.2
-    - _TessellationEdgeLength: 0.17
-    - _TessellationInside: 30.1
+    - _TessellationEdgeLength: 1
+    - _TessellationInside: 33.9
     - _TessellationUniform: 1
     - _Wavelength: 1.8
     - _Wavelength0: 4.4
