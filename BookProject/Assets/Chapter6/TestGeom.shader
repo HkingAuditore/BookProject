@@ -80,7 +80,7 @@ Shader "Custom/TestGeom"
 				float3 n1 =  normalize(cross(spike.pos.xyz-p[1].pos.xyz,p[0].pos.xyz-p[1].pos.xyz));
 				p[0].normal = n1;
 				spike.normal = n1;
-				p[2].normal = n1;
+				p[1].normal = n1;
 				stream.Append(CreateG2F(p[0]));
 				stream.Append(CreateG2F(p[1]));
 				stream.Append(CreateG2F(spike));
@@ -89,7 +89,7 @@ Shader "Custom/TestGeom"
 				
 				//第二个面的
 				float3 n2 =  normalize(cross(p[0].pos.xyz-p[2].pos.xyz,spike.pos.xyz-p[2].pos.xyz));
-				p[1].normal = n2;
+				p[0].normal = n2;
 				spike.normal = n2;
 				p[2].normal = n2;
 				stream.Append(CreateG2F(p[0]));
@@ -191,7 +191,7 @@ Shader "Custom/TestGeom"
 				float3 n1 =  normalize(cross(spike.pos.xyz-p[1].pos.xyz,p[0].pos.xyz-p[1].pos.xyz));
 				p[0].normal = n1;
 				spike.normal = n1;
-				p[2].normal = n1;
+				p[1].normal = n1;
 				stream.Append(CreateG2F(p[0]));
 				stream.Append(CreateG2F(p[1]));
 				stream.Append(CreateG2F(spike));
@@ -200,7 +200,7 @@ Shader "Custom/TestGeom"
 				
 				//第二个面的
 				float3 n2 =  normalize(cross(p[0].pos.xyz-p[2].pos.xyz,spike.pos.xyz-p[2].pos.xyz));
-				p[1].normal = n2;
+				p[0].normal = n2;
 				spike.normal = n2;
 				p[2].normal = n2;
 				stream.Append(CreateG2F(p[0]));

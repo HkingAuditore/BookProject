@@ -44,17 +44,21 @@ Shader "Unlit/Brush"
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
-                o.uv = TRANSFORM_TEX(v.uv, _MainTex);
+                o.uv = v.uv;
                 return o;
             }
 
             fixed4 frag (v2f i) : SV_Target
             {
-                half2 pos =   (-_BrushPos.xz / _ZoneSize +1) * .5;
-                half2 originUv = i.uv - pos;
-                // uv的系数越大，圆点越小
+                // 获得Brush在目标区域里的相对位置，值域为[0,1]
+                half2 pos =   (_BrushPos.xz / _ZoneSize) * .5 + 0.5;
+                // UV右上角与pos对齐
+                half2 posUv = (i.uv-1+ pos) * (1 / _BrushSize) + 0.5;
+                #if UNITY_UV_STARTS_AT_TOP
+                posUv.y = 1.0 - posUv.y;
+                #endif
                 // 为了保证表现与参数调整的一致性，此处对brush size进行了倒数处理
-                half traceMask = tex2D(_MaskTex,originUv * (1 / _BrushSize) + 0.5);
+                half traceMask = tex2D(_MaskTex,posUv);
                 return traceMask * 0.5;
             }
             ENDCG

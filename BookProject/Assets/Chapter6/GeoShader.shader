@@ -4,7 +4,7 @@ Shader "Custom/GeoShader"
 	{
 		_GroundColor("Ground Color", Color) = (1, 1, 1, 1)
 		_GrassTex ("Grass Texture", 2D) = "white" {}
-		_GrassCount("Grass per triangle", Range(0,9)) = 0
+		_GrassCount("Grass per triangle", Range(0,20)) = 20
 		_GrassWidth("Grass Width", Range(0,1)) = 0.1
 		_GrassCutoff("Grass Cutoff", Range(0,1)) = 0.1
 		_GrassTall("Grass Tall", Range(0,1)) = 0.1
@@ -131,7 +131,7 @@ Shader "Custom/GeoShader"
 			}
 
 			// 定义一个名为MAX_VERTEX_COUNT的宏，值为3+6*9
-			#define MAX_VERTEX_COUNT 3+6*8
+			#define MAX_VERTEX_COUNT 3+6*10
 			[maxvertexcount(MAX_VERTEX_COUNT)]
 			void geo(triangle  v2g p[3], inout TriangleStream<g2f> stream)
 			{

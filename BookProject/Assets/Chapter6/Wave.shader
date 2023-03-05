@@ -123,10 +123,10 @@ Shader "Unlit/Wave"
                 float3 p0 = mul(unity_ObjectToWorld, float4(cp0.pos.xyz, 1)).xyz;
 		        float3 p1 = mul(unity_ObjectToWorld, float4(cp1.pos.xyz, 1)).xyz;
 		        float edgeLength = distance(p0, p1);
-
+          
 		        float3 edgeCenter = (p0 + p1) * 0.5;
 		        float viewDistance = distance(edgeCenter, _WorldSpaceCameraPos);
-
+          
 		        return edgeLength / (_TessellationEdgeLength * pow(viewDistance,2)*0.01);
             }
 

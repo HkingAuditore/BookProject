@@ -40,16 +40,16 @@ Material:
     - _Shininess: 0.566
     - _Speed: 2.6
     - _Steepness: 0.528
-    - _Steepness0: 0.195
-    - _Steepness1: 0.169
+    - _Steepness0: 0
+    - _Steepness1: 0
     - _SubdivisionAmount: 5
-    - _TessellationEdge: 12.2
+    - _TessellationEdge: 1
     - _TessellationEdgeLength: 1
-    - _TessellationInside: 33.9
+    - _TessellationInside: 4.1
     - _TessellationUniform: 1
     - _Wavelength: 1.8
     - _Wavelength0: 4.4
-    - _Wavelength1: 2.6
+    - _Wavelength1: 1
     m_Colors:
     - _Color: {r: 0.23887502, g: 0.625503, b: 0.8301887, a: 1}
     - _WaveDir: {r: 0.99, g: -0.84, b: 0, a: 0}

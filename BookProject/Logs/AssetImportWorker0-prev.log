@@ -1,0 +1,251 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.14f1c1 (ed787cdc2846) revision 15562876'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.2604; Version 2009; 64bit' Language: 'zh' Physical Memory: 32653 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Developent/Unity/写书/BookProject/BookProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49444
+Successfully changed project path to: F:/Developent/Unity/写书/BookProject/BookProject
+F:/Developent/Unity/写书/BookProject/BookProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1c1 (ed787cdc2846)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Developent/Unity/写书/BookProject/BookProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   
+    VRAM:     8041 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003259 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 20.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.476 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2476ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (318ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (106ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (114ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (21ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.241 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1246ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (933ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.52 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1565 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2033.
+Total: 2.076300 ms (FindLiveObjects: 0.218800 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.744000 ms  DeleteObjects: 0.067600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Chapter5/Glass/New Scene.unity
+  artifactKey: Guid(97fc8f39502da7740a0482cb17705c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/Glass/New Scene.unity using Guid(97fc8f39502da7740a0482cb17705c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6540e20b838ef667a9ceba31b742569f') in 0.075320 seconds 
+  Import took 0.078619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Chapter5/Glass/Materials
+  artifactKey: Guid(9eb12bde9be39374c8c5ebd6d70829a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/Glass/Materials using Guid(9eb12bde9be39374c8c5ebd6d70829a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87704836c8e8be04c01249e1e6d87d16') in 0.004189 seconds 
+  Import took 0.006541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17377.466722 seconds.
+  path: Assets/Chapter5/Glass/Unlit_Glass 1.mat
+  artifactKey: Guid(d34df7d96e47c6f4d84fec2e48cc38b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/Glass/Unlit_Glass 1.mat using Guid(d34df7d96e47c6f4d84fec2e48cc38b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b39043153d77a3ceb0c994363bf0ca') in 0.230466 seconds 
+  Import took 0.265191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5699.286278 seconds.
+  path: Assets/Chapter5/Glass/glasstest.shader
+  artifactKey: Guid(5f4aa7e8f344a564fb3ee20f45fdb4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/Glass/glasstest.shader using Guid(5f4aa7e8f344a564fb3ee20f45fdb4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e9e50e4ffbb7a6ad0b4ab22ab30466') in 0.030010 seconds 
+  Import took 0.047793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.393629 seconds.
+  path: Assets/Chapter5/Glass/Unlit_glasstest.mat
+  artifactKey: Guid(ed206580dd59442459ac604e1fef55d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/Glass/Unlit_glasstest.mat using Guid(ed206580dd59442459ac604e1fef55d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b462db27bea72ef2b248ec57b3a403') in 0.040194 seconds 
+  Import took 0.042567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 886.855783 seconds.
+  path: Assets/Chapter5/ndlNormalmap.shader
+  artifactKey: Guid(c7388e2046e08b24398168c102eda08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/ndlNormalmap.shader using Guid(c7388e2046e08b24398168c102eda08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfcb5072204c1abca2ef1e2655ab224') in 0.005320 seconds 
+  Import took 0.007909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.682715 seconds.
+  path: Assets/Chapter5/ndlNormalmap.shader
+  artifactKey: Guid(c7388e2046e08b24398168c102eda08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/ndlNormalmap.shader using Guid(c7388e2046e08b24398168c102eda08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e07e72a7ce60a96d1d16c2c1e1cd7b0') in 0.005629 seconds 
+  Import took 0.008280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1118.539022 seconds.
+  path: Assets/Chapter5/Glass/GlassExample.shader
+  artifactKey: Guid(a93c3089ad90db94fa091283aee6b3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/Glass/GlassExample.shader using Guid(a93c3089ad90db94fa091283aee6b3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665b560a0a99f4bfbd7facd2de6f349f') in 0.004175 seconds 
+  Import took 0.006671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.602107 seconds.
+  path: Assets/Chapter5/ndlNormalmap.shader
+  artifactKey: Guid(c7388e2046e08b24398168c102eda08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/ndlNormalmap.shader using Guid(c7388e2046e08b24398168c102eda08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e484a45aa8fdb2c759de87b3ccfc7d') in 0.005899 seconds 
+  Import took 0.008680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000687 seconds.
+  path: Assets/Chapter5/ndlNormalmap.shader
+  artifactKey: Guid(c7388e2046e08b24398168c102eda08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/ndlNormalmap.shader using Guid(c7388e2046e08b24398168c102eda08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e484a45aa8fdb2c759de87b3ccfc7d') in 0.004096 seconds 
+  Import took 0.006522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.323152 seconds.
+  path: Assets/Chapter5/Unlit_ndlNormalmap.mat
+  artifactKey: Guid(bff9fdef5b4ede348bd0943bab2fba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/Unlit_ndlNormalmap.mat using Guid(bff9fdef5b4ede348bd0943bab2fba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8286c9b5b08b4b99ec1509f395140b') in 0.017223 seconds 
+  Import took 0.019752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7864.838282 seconds.
+  path: Assets/Chapter5/Glass/Unlit_Glass 1.mat
+  artifactKey: Guid(d34df7d96e47c6f4d84fec2e48cc38b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/Glass/Unlit_Glass 1.mat using Guid(d34df7d96e47c6f4d84fec2e48cc38b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4d2efd63a167837e0814ab5768a639') in 0.047596 seconds 
+  Import took 0.063892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Chapter5/Glass/Unlit_Glass.mat
+  artifactKey: Guid(6563b30a5ac7cd0408ba2fd2972fc02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/Glass/Unlit_Glass.mat using Guid(6563b30a5ac7cd0408ba2fd2972fc02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08af90b819aad178e804d67109c362f5') in 0.034562 seconds 
+  Import took 0.036818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Chapter5/Glass/Unlit_glasstest.mat
+  artifactKey: Guid(ed206580dd59442459ac604e1fef55d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/Glass/Unlit_glasstest.mat using Guid(ed206580dd59442459ac604e1fef55d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f1121175e0902a60f85caff1084207') in 0.022789 seconds 
+  Import took 0.024921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Chapter5/Glass/Unlit_GlassExample.mat
+  artifactKey: Guid(81f9f9ae4053ddf4b984dd25d5deb236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter5/Glass/Unlit_GlassExample.mat using Guid(81f9f9ae4053ddf4b984dd25d5deb236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4102e8bae2fae0b9a0174dc5f352ec7') in 0.011624 seconds 
+  Import took 0.013594 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

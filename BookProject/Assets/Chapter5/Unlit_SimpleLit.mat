@@ -34,7 +34,7 @@ Material:
     - _EnableMask: 0
     - _LIGHTSRC: 2
     - _Metallic: 0
-    - _NormalMapIntensity: 1
+    - _NormalMapIntensity: 1.66
     - _SECOND_LIGHT: 0
     - _Shininess: 1.035
     - _Smoothness: 2

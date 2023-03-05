@@ -118,16 +118,20 @@ Shader "Unlit/SimpleLit"
             fixed4 frag (v2f i) : SV_Target
             {
                 // float3 normal = normalize(i.normal);
+            	
+                #if _INVERT_NORMAL_Y
                 float3 normal = GetNormalMap(i.normal,i.tangent,i.uv,_NormalMapIntensity,true);
+                #else
+                float3 normal = GetNormalMap(i.normal, i.tangent, i.uv, _NormalMapIntensity, false);
+                #endif
             	
                 float3 lightDir = normalize(_WorldSpaceLightPos0.xyz);
             	//采样阴影
             	fixed shadow = SHADOW_ATTENUATION(i);
 
             	// 环境光
-            	float3 shLighting = ShadeSH9(float4(i.normal, 1));
+            	float3 shLighting = ShadeSH9(float4(normal, 1));
 
-            	//采样Lightmap
             	//采样Lightmap
 				#if LIGHTMAP_ON
 					float3 lightMap = DecodeLightmap(UNITY_SAMPLE_TEX2D(unity_Lightmap, i.lightmapUV));
@@ -135,7 +139,7 @@ Shader "Unlit/SimpleLit"
 
                 
                 // 漫反射
-                half4 albedo = tex2D(_MainTex,i.uv) * _Color + + half4(_Emission.rgb,0);
+                half4 albedo = tex2D(_MainTex,i.uv) * _Color + half4(_Emission.rgb,0);
                 half3 specularColor; 
 				float invertReflectivity; 
 				albedo.rgb = DiffuseAndSpecularFromMetallic(

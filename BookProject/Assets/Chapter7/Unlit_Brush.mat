@@ -30,6 +30,6 @@ Material:
     m_Floats:
     - _BrushSize: 0.05
     - _Size: 5
-    - _ZoneSize: 5
+    - _ZoneSize: 10
     m_Colors: []
   m_BuildTextureStacks: []

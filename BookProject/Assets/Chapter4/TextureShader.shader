@@ -129,7 +129,7 @@ Shader "Unlit/TextureShader"
                 float cosxMain = cos(_MainTexRotation);
                 float2 uvRotatedMain = mul(i.uv,float2x2(cosxMain,-sinxMain,sinxMain,cosxMain));
                 float2 uvForMainTex = TRANSFORM_TEX(uvRotatedMain, _MainTex);
-                fixed4 col0 = tex2D(_MainTex, uvForMainTex);
+                fixed4 col0 = tex2D(_MainTex, (i.uv+_MainTex_ST.zw)*_MainTex_ST.xy-_MainTex_ST.zw);
                 float sinxSecond = sin(_SecondTexRotation);
                 float cosxSecond = cos(_SecondTexRotation);
                 float2 uvRotatedSecond = mul(float2x2(cosxSecond,-sinxSecond,sinxSecond,cosxSecond),i.uv);
@@ -137,7 +137,7 @@ Shader "Unlit/TextureShader"
                 fixed4 col1 = tex2D(_SecondTex, uvForSecondTex);
                 
                 float4 col = blend(half4(col0.rgb,0.5),half4(col1.rgb,0.5));
-                return col;
+                return col0;
             }
             ENDCG
         }

@@ -53,8 +53,8 @@ Material:
     - _Phong: 1
     - _SubdivisionAmount: 5
     - _TessEdge: 1
-    - _TessellationEdgeLength: 0.5
-    - _TessellationUniform: 1
+    - _TessellationEdgeLength: 0.336
+    - _TessellationUniform: 16.6
     - _fadeDist: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
