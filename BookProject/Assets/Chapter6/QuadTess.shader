@@ -1,4 +1,4 @@
-Shader "Unlit/QuadTess"
+Shader "Chapter6/QuadTess"
 {
     Properties
     {

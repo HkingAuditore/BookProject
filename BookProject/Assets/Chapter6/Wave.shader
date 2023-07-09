@@ -1,4 +1,4 @@
-Shader "Unlit/Wave"
+Shader "Chapter6/Wave"
 {
     Properties
     {

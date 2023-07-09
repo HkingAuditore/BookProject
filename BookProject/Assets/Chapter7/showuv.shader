@@ -1,4 +1,4 @@
-Shader "Unlit/showuv"
+Shader "Chapter7/showuv"
 {
     Properties
     {

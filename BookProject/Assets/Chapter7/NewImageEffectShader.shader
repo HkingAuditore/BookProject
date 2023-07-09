@@ -1,4 +1,4 @@
-Shader "Hidden/NewImageEffectShader"
+Shader "Chapter7/NewImageEffectShader"
 {
     Properties
     {

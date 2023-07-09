@@ -1,4 +1,4 @@
-Shader "Unlit/BlendingTrace"
+Shader "Chapter7/BlendingTrace"
 {
     Properties
     {
@@ -40,7 +40,7 @@ Shader "Unlit/BlendingTrace"
                 return o;
             }
 
-            half4 frag(v2f i) : COLOR
+            half4 frag(v2f i) : SV_TARGET
             {
                 // 拍摄结果中uv的x与平面的相反，因此对uv.x取了1-x
                 float depth = tex2D(_MainTex,half2(1-i.uv.x,i.uv.y));

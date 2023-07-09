@@ -1,4 +1,4 @@
-Shader "Custom/TestGeom"
+Shader "Chapter6/TestGeom"
 {
 	Properties
 	{

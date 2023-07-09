@@ -1,4 +1,4 @@
-Shader "Unlit/CustomZ"
+Shader "Chapter4/CustomZ"
 {
     Properties
     {

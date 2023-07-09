@@ -1,4 +1,4 @@
-Shader "Unlit/ndlNormalmap"
+Shader "Chapter5/ndlNormalmap"
 {
     Properties
     {

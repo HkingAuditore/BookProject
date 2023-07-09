@@ -1,4 +1,4 @@
-Shader "Unlit/StencilTarget"
+Shader "Chapter4/StencilTarget"
 {
     Properties
     {

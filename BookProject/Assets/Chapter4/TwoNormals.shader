@@ -1,4 +1,4 @@
-Shader "Unlit/TwoNormals"
+Shader "Chapter4/TwoNormals"
 {
     Properties
     {

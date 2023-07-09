@@ -1,4 +1,4 @@
-Shader "Unlit/AlphaCut"
+Shader "Chapter4/AlphaCut"
 {
     Properties
     {

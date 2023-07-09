@@ -1,4 +1,4 @@
-Shader "Unlit/GlassExample"
+Shader "Chapter5/GlassExample"
 {
     Properties
     {

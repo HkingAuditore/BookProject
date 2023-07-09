@@ -1,4 +1,4 @@
-Shader "Unlit/Brush"
+Shader "Chapter7/Brush"
 {
     Properties
     {

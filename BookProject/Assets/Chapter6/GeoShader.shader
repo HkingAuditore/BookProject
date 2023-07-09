@@ -1,4 +1,4 @@
-Shader "Custom/GeoShader"
+Shader "Chapter6/GeoShader"
 {
 	Properties
 	{

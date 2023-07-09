@@ -1,4 +1,4 @@
-Shader "Unlit/Outline_Scaler"
+Shader "Chapter6/Outline_Scaler"
 {
     Properties
     {

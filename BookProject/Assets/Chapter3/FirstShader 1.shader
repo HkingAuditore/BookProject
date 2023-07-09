@@ -1,4 +1,4 @@
-Shader "Unlit/FirstShader2"
+Shader "Chapter3/FirstShader2"
 {
     Properties
     {

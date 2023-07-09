@@ -1,4 +1,4 @@
-Shader "Unlit/TestSH"
+Shader "Chapter5/TestSH"
 {
     Properties
     {

@@ -1,4 +1,4 @@
-Shader "Unlit/RoundCorner"
+Shader "Chapter4/RoundCorner"
 {
     Properties
     {

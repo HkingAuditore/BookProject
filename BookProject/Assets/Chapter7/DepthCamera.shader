@@ -1,4 +1,4 @@
-Shader "Unlit/DepthCamera"
+Shader "Chapter7/DepthCamera"
 {
     Properties
     {

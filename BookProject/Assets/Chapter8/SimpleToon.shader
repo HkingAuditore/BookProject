@@ -1,4 +1,4 @@
-Shader "Unlit/SimpleToon"
+Shader "Chapter8/SimpleToon"
 {
     Properties
     {
@@ -97,9 +97,9 @@ Shader "Unlit/SimpleToon"
                 // 高光反射
                 float3 viewDir = normalize(UnityWorldSpaceViewDir(i.worldPos));
                 float3 halfVector = normalize(lightDir+viewDir);
-                half ndotv = dot(normal, halfVector);
-                ndotv += (1-ndotv)*noise*0.1;
-                ndotv = smoothstep(_SpecIntensity*_SpecPower,_SpecIntensity,ndotv);
+                half spec = dot(normal, halfVector);
+                spec += (1-spec)*noise*0.1;
+                spec = smoothstep(_SpecIntensity*_SpecPower,_SpecIntensity,spec);
 
                 // 边缘光
                 half rim = dot(normal,viewDir);
@@ -107,7 +107,7 @@ Shader "Unlit/SimpleToon"
                 rim = 1-smoothstep(_RimIntensity,_RimIntensity+_RimPower,rim);
                 
                 // 漫反射采样Ramp图，高光直接指定颜色
-                return lerp(tex1D(_RampTex,ndotl) * _MainColor + ndotv * _SpecularColor ,_RimColor, rim*_RimColor.a);
+                return lerp(tex1D(_RampTex,ndotl) * _MainColor + spec * _SpecularColor ,_RimColor, rim*_RimColor.a);
             }
             ENDCG
         }
@@ -181,8 +181,7 @@ Shader "Unlit/SimpleToon"
         Pass
         {
            Tags{
-            	 "LightMode" = "ForwardBase"
-            	 "Queue" = "Transparent"
+               "Queue" = "Transparent"
             }
             Blend SrcAlpha OneMinusSrcAlpha
             Cull front

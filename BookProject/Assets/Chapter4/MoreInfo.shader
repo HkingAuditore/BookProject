@@ -1,4 +1,4 @@
-Shader "Unlit/MoreInfo"
+Shader "Chapter4/MoreInfo"
 {
     Properties
     {

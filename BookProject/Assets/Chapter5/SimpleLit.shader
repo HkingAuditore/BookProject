@@ -1,4 +1,4 @@
-Shader "Unlit/SimpleLit"
+Shader "Chapter5/SimpleLit"
 {
     Properties
     {

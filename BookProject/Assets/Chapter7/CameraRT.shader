@@ -1,4 +1,4 @@
-Shader "Unlit/CameraRT"
+Shader "Chapter7/CameraRT"
 {
     Properties
     {

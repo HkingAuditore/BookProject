@@ -1,4 +1,4 @@
-Shader "RimLight/RimLight"
+Shader "Chapter5/RimLight"
 {
     Properties
     {

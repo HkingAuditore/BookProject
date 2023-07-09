@@ -12,7 +12,7 @@
 
 // Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "Unlit/DiffrentSpaces"
+Shader "Chapter4/DiffrentSpaces"
 {
     Properties
     {

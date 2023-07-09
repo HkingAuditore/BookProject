@@ -1,4 +1,4 @@
-Shader "Unlit/MaterialDrawer"
+Shader "Chapter4/MaterialDrawer"
 {
     Properties
     {

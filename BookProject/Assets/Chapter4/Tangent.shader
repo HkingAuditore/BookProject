@@ -1,4 +1,4 @@
-Shader "Unlit/Tangent"
+Shader "Chapter4/Tangent"
 {
     Properties
     {

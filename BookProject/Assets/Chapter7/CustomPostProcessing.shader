@@ -1,4 +1,4 @@
-Shader "CustomPP/CustomPostProcessing"
+Shader "Chapter7/CustomPostProcessing"
 {
     Properties
     {
@@ -67,10 +67,10 @@ Shader "CustomPP/CustomPostProcessing"
 
                 half gradientX = 0;
                 half gradientY = 0;
-                for (int i = 0; i < 9; i++)
+                for (int j = 0; j < 9; j++)
                 {
-                    gradientX += pixels[i] * sobelX[i];
-                    gradientY += pixels[i] * sobelY[i];
+                    gradientX += pixels[j] * sobelX[j];
+                    gradientY += pixels[j] * sobelY[j];
                 }
                 // 我们不关心梯度的方向，所以取梯度的绝对值
                 half edge = step(_EdgeThreshold,saturate(abs(gradientX)+abs(gradientY)));

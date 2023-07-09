@@ -1,5 +1,4 @@
-
-Shader "Unlit/TextureShader"
+Shader "Chapter4/TextureShader"
 {
     Properties
     {

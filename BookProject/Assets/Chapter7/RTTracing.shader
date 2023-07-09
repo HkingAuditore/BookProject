@@ -1,4 +1,4 @@
-Shader "Unlit/RTTracing"
+Shader "Chapter7/RTTracing"
 {
     Properties
     {
